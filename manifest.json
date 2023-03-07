@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Time Tracker",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "action": {
+    "default_popup": "time.html",
+    "default_icon": "icon.png"
+  }
+}
